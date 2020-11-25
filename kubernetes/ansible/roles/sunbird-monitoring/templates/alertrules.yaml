@@ -79,3 +79,9 @@ secor_process_names:
   - ingestion-telemetry-backup
   - ingestion-cluster-telemetry-backup
   - telemetry-ingest-backup
+
+redis_process_names:
+  - redis-server *:6380
+  - redis-server *:6381
+  - redis-server *:6382
+  - redis-server *:6383  
